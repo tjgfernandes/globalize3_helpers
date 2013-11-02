@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rcov>, ["= 0.9.11"])
     else
       s.add_dependency(%q<activesupport>, [">= 0"])
-      s.add_dependency(%q<globalize3>, [">= 0"])
+      s.add_dependency(%q<globalize>, [">= 4.0.0.alpha.2"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, [">= 0"])

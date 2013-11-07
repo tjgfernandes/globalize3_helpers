@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem "activesupport"
-gem "globalize"
+gem 'globalize', '~> 4.0.0.alpha.2'
 
 group :development do
   gem "shoulda"
